@@ -1,0 +1,26 @@
+.item{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+padding: 0px 20px;
+margin-bottom: 10px;
+border-radius: 10px;
+height: 45px;
+}
+.item:hover{
+    background-color: #f1f1f1;
+}
+.item h2{
+    font-size: 14px;
+}
+.item button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30px;
+}
+.item button:hover{
+    transform: scale(1.1);
+}

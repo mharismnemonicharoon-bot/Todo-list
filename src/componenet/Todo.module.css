@@ -1,0 +1,68 @@
+.mainContainer{
+    width: 600px;
+    text-align: center;
+    background-color: #00eaff3c;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+.inputBox{
+    text-align: left;
+}
+.inputBox h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+.inputBox p{
+    font-size: 16px;
+    padding: 10px 0px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
+form button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #00eaff;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+form button:hover{
+    background-color: #00bcd4;
+}
+
+.mainContainer ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.mainContainer h3{
+   
+    margin-top: 40px;
+}
+.clearAll button{
+    padding: 8px 24px;
+    background-color:white;
+    border: 1.5px solid #00eaff;
+    border-radius: 10px;
+}
+.clearAll button:hover{
+    background-color: #00eaff;
+    color: white;
+    transform: scale(0.98);
+}
